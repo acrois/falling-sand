@@ -1,0 +1,34 @@
+{
+  "name": "falling-sand",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acrois/falling-sand.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acrois/falling-sand/issues"
+  },
+  "homepage": "https://github.com/acrois/falling-sand#readme",
+  "dependencies": {
+    "browserify": "~16.5.0",
+    "color": "~3.1.2",
+    "typescript": "~3.7.2",
+    "tsify": "~4.0.1",
+    "awesome-typescript-loader": "5.2.1",
+    "source-map-loader": "0.2.4"
+  },
+  "devDependencies": {
+    "@types/color": "^3.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
